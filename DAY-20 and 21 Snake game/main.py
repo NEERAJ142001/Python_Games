@@ -39,9 +39,9 @@ while game_is_on:
 
     # it used when tracer is off
     screen.update()
-    # 0.1 sec take to move
+    # 0.1 sec take to move delay
     time.sleep(0.1)
-    # to move the snake
+    # to move the snake forward
     snake.move()
 
     # detect collision with food 1 * 10 size of food, so we put 15 as a maximum distance from the food
